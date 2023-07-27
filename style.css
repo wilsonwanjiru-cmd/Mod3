@@ -1,0 +1,66 @@
+/* Your existing CSS styles */
+
+@media screen and (max-width: 768px) {
+    .card {
+      max-width: 90%;
+    }
+  
+    .card-head a {
+      top: 2rem;
+    }
+  
+    .user-image {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .user-post-address,
+    .user-contact-info {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .user-post-address > div,
+    .user-contact-info span:first-child {
+      margin-bottom: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 490px) {
+    .container {
+      margin: 2rem auto;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+  
+    .card-head a {
+      top: 1rem;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    .user-post-address > div,
+    .user-contact-info {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .user-post-address > div,
+    .user-contact-info span:first-child {
+      margin-bottom: 1.4rem;
+    }
+  
+    .user-image {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .user-name {
+      padding: 2rem 0 1rem 0;
+    }
+  }
+  
+  /* Additional media queries can be added for finer control on other screen sizes if needed */
+  
